@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d44297-2c64-4063-accd-ffdbf8af173f" name="Changes" comment="Esta es mi Branch!!!">
-      <changelist_data name="LinaGrajales" email="104029351+linagrag@users.noreply.github.com" />
-    </list>
+    <list default="true" id="99d44297-2c64-4063-accd-ffdbf8af173f" name="Changes" comment="Esta es mi Branch!!!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="LinaGrajales &lt;104029351+linagrag@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -44,8 +47,20 @@
       <updated>1660933262944</updated>
       <workItem from="1660933265504" duration="54000" />
       <workItem from="1661027451597" duration="226000" />
+<<<<<<< Updated upstream
       <workItem from="1661301656727" duration="152000" />
+=======
+      <workItem from="1661027995331" duration="699000" />
     </task>
+    <task id="LOCAL-00001" summary="Esta es mi Branch!!!">
+      <created>1661028023472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661028023472</updated>
+>>>>>>> Stashed changes
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,6 +79,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Esta es mi branch =)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Esta es mi branch =)" />
+    <MESSAGE value="Esta es mi Branch!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Esta es mi Branch!!!" />
   </component>
 </project>
