@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Ciclo3Application {
 
 	public static String main(String[] args) {
-		Empresa emp = new Empresa("SOLAR SAS", "Calle la geta", "3213213211","800212132-3");
-		emp.setNombreEmpresa("SOLAR LTDA");
+		Empresa emp = new Empresa("Soft Code", "Calle la geta", "3213213211","800212132-3");
+		emp.setNombreEmpresa("SoftCode S.A");
 		return emp.getNombreEmpresa();
 	}
 	}
 
-}
+

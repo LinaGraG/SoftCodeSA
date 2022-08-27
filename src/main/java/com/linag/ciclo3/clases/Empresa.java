@@ -1,65 +1,67 @@
 package com.linag.ciclo3.clases;
 
 public class Empresa {
-
     //Atributos
+    private int Id;
     private String nombreEmpresa;
-    private String direccion;
-    private int telefono;
-    private int nit;
+    private String direccionEmpresa;
+    private int telefonoEmpresa;
+    private String  NIT;
 
-    //Costructor
-        public Empresa(String nombreEmpresa, String direccion, int telefono, int nit) {
+    //Constructor
+
+    public Empresa(String nombreEmpresa, String direccionEmpresa, int telefonoEmpresa, String NIT) {
         this.nombreEmpresa = nombreEmpresa;
-        this.direccion = direccion;
-        this.telefono = telefono;
-        this.nit = nit;
-    }
-
-    //metodo
-    public String test(){
-//		instanciar empresa
-        Empresa emp = new Empresa( "nombreEmpresa", "direccion", "telefono6","nit");
-// Cambiar nombre
-        emp.setNombre("SoftCode S.A");
-//	crear nombre
-        System.out.println("Se Creo la empresa y se renombro");
-        return emp.getNombre();
-
+        this.direccionEmpresa = direccionEmpresa;
+        this.telefonoEmpresa = telefonoEmpresa;
+        this.NIT = NIT;
     }
 
 
-    //Getters and Setters
+    //MÉTODO
 
-    public String getNombreEmpresa()
-    {return nombreEmpresa;
+
+
+    //getters and setters
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int Id) {
+        this.Id = Id;
+    }
+
+    public String getNombreEmpresa() {
+        return nombreEmpresa;
     }
 
     public void setNombreEmpresa(String nombreEmpresa) {
         this.nombreEmpresa = nombreEmpresa;
     }
 
-    public String getDireccion() {
-        return direccion;
+    public String getDireccionEmpresa() {
+        return direccionEmpresa;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setDireccionEmpresa(String direccionEmpresa) {
+        this.direccionEmpresa = direccionEmpresa;
     }
 
-    public int getTelefono() {
-        return telefono;
+    public int getTelefonoEmpresa() {
+        return telefonoEmpresa;
     }
 
-    public void setTelefono(int telefono) {
-        this.telefono = telefono;
+    public void setTelefonoEmpresa(int telefonoEmpresa) {
+        this.telefonoEmpresa = telefonoEmpresa;
     }
 
-    public int getNit() {
-        return nit;
+    public String getNIT() {
+        return NIT;
     }
 
-    public void setNit(int nit) {
-        this.nit = nit;
+    public void setNIT(String NIT) {
+        this.NIT = NIT;
     }
+
 }
