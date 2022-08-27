@@ -1,14 +1,15 @@
 package com.linag.ciclo3.clases;
 
+
+
 public class MovimientoDinero {
     //Atriibutos
     private int Id;
     private long montoMovimiento;
-    private String  conceptoMovimiento;
-//	private Empleado usuario;//
-//	private Empresa empresa;//
-//	private Date createdAt;//
-//	private Date updateAt;//
+    private String conceptoMovimiento;
+    private Empleado empleado;
+    private Empresa empresa;
+
 
     //MÉTODO
 
