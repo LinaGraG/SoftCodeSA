@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="861d2966-dba2-4c42-a0b5-769c3fadaed5" name="Changes" comment="Esta es mi Branch!!!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/MovimientoDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/MovimientoDinero.java" afterDir="false" />
-    </list>
+    <list default="true" id="861d2966-dba2-4c42-a0b5-769c3fadaed5" name="Changes" comment="Esta es mi Branch!!!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,19 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/INTELLIJ IDEA CODIGOS/com.linag.ciclo3",
-    "spring.configuration.checksum": "908e142e117df207d4269d46a04a7cb4"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/INTELLIJ IDEA CODIGOS/com.linag.ciclo3&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;908e142e117df207d4269d46a04a7cb4&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Ciclo3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SoftCodeSA" />
@@ -97,6 +93,7 @@
       <workItem from="1661301656727" duration="152000" />
       <workItem from="1661027995331" duration="699000" />
       <workItem from="1661643814434" duration="212000" />
+      <workItem from="1661719939585" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="Esta es mi Branch!!!">
       <created>1661028023472</created>
