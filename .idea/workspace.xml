@@ -5,22 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d66423a7-ef63-46cd-bb0a-dc3a8d5d8893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/Ciclo3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/MovimientoDinero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/list.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/linag/ciclo3/Ciclo3ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -86,6 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/INTELLIJ IDEA CODIGOS/Trabajo-en-Clase-Ciclo-3",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "0eb1d4191a1234d9651852346eaebab4"
   }
 }]]></component>
@@ -134,6 +122,7 @@
       <workItem from="1661707835790" duration="451000" />
       <workItem from="1661715524611" duration="3465000" />
       <workItem from="1661719808412" duration="228000" />
+      <workItem from="1661720474896" duration="42000" />
     </task>
     <servers />
   </component>
