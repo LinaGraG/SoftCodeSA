@@ -1,5 +1,7 @@
 package com.linag.ciclo3.clases;
 
+import java.util.List;
+
 public class Empleado {
     //Atributos
     private int Id;
@@ -8,8 +10,9 @@ public class Empleado {
     private String empresaEmpleado;
     private String rolEmpleado;
 
+    private List<Empresa> empresalist;
 
-    //Constructor
+//Constructor
 
     public Empleado(String nombreEmpleado, String correoEmpleado, String empresaEmpleado, String rolEmpleado) {
         this.nombreEmpleado = nombreEmpleado;
@@ -17,18 +20,18 @@ public class Empleado {
         this.empresaEmpleado = empresaEmpleado;
         this.rolEmpleado = rolEmpleado;
     }
-    //MÉTODO
 
+    //METODO
 
+    //getters and setters
 
-    //Getter and setter
 
     public int getId() {
         return Id;
     }
 
-    public void setId(int Id) {
-        this.Id = Id;
+    public void setId(int id) {
+        Id = id;
     }
 
     public String getNombreEmpleado() {

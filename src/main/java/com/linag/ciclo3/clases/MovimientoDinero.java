@@ -3,7 +3,7 @@ package com.linag.ciclo3.clases;
 
 
 public class MovimientoDinero {
-    //Atriibutos
+    //Atributos
     private int Id;
     private long montoMovimiento;
     private String conceptoMovimiento;
