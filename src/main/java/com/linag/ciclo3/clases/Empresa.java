@@ -6,11 +6,10 @@ public class Empresa {
     private String nombreEmpresa;
     private String direccionEmpresa;
     private String telefonoEmpresa;
-<<<<<<< HEAD
     private String  NIT;
-=======
-    private String NIT;
->>>>>>> main
+
+
+
 
     //Constructor
 
@@ -20,22 +19,17 @@ public class Empresa {
         this.telefonoEmpresa = telefonoEmpresa;
         this.NIT = NIT;
     }
-<<<<<<< HEAD
+
 
 
     //MÉTODO
 
-=======
 //METODO
->>>>>>> main
+
 
 
     //getters and setters
 
-<<<<<<< HEAD
-
-=======
->>>>>>> main
     public int getId() {
         return Id;
     }
