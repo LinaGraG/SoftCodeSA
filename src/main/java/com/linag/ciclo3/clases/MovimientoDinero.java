@@ -6,18 +6,22 @@ public class MovimientoDinero {
     private int Id;
     private long montoMovimiento;
     private String conceptoMovimiento;
-    private Empleado empleado;
-    private Empresa empresa;
+    private String empleado;
+    private String empresa;
 
     //Constructor
 
-    public MovimientoDinero(int id, long montoMovimiento, String conceptoMovimiento, Empleado empleado, Empresa empresa) {
-        Id = id;
+
+    public MovimientoDinero(long montoMovimiento, String conceptoMovimiento, String empleado, String empresa) {
         this.montoMovimiento = montoMovimiento;
         this.conceptoMovimiento = conceptoMovimiento;
         this.empleado = empleado;
         this.empresa = empresa;
     }
+
+
+
+
 
     //Metodos
 
@@ -50,19 +54,19 @@ public class MovimientoDinero {
         this.conceptoMovimiento = conceptoMovimiento;
     }
 
-    public Empleado getEmpleado() {
+    public String getEmpleado() {
         return empleado;
     }
 
-    public void setEmpleado(Empleado empleado) {
+    public void setEmpleado(String empleado) {
         this.empleado = empleado;
     }
 
-    public Empresa getEmpresa() {
+    public String getEmpresa() {
         return empresa;
     }
 
-    public void setEmpresa(Empresa empresa) {
+    public void setEmpresa(String empresa) {
         this.empresa = empresa;
     }
 }

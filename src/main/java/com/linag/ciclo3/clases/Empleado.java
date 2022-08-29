@@ -1,6 +1,6 @@
 package com.linag.ciclo3.clases;
 
-import java.util.List;
+
 
 public class Empleado {
     //Atributos
@@ -10,7 +10,6 @@ public class Empleado {
     private String empresaEmpleado;
     private String rolEmpleado;
 
-    private List<Empresa> empresalist;
 
 //Constructor
 
@@ -19,6 +18,10 @@ public class Empleado {
         this.correoEmpleado = correoEmpleado;
         this.empresaEmpleado = empresaEmpleado;
         this.rolEmpleado = rolEmpleado;
+    }
+
+    public Empleado(String nombreEmpleado, String correoEmpleado, String administrativo) {
+
     }
 
     //METODO
