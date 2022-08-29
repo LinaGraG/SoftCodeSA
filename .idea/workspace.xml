@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="861d2966-dba2-4c42-a0b5-769c3fadaed5" name="Changes" comment="Esta es mi Branch!!!" />
+=======
+    <list default="true" id="d66423a7-ef63-46cd-bb0a-dc3a8d5d8893" name="Changes" comment="Sprint 2&#10;Creacion de Clases : Empresa,Empleado,movimientoDinero">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +93,7 @@
       <created>1660933262944</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< Updated upstream
       <updated>1660933262944</updated>
       <workItem from="1660933265504" duration="54000" />
       <workItem from="1661027451597" duration="226000" />
@@ -94,6 +101,15 @@
       <workItem from="1661027995331" duration="699000" />
       <workItem from="1661643814434" duration="212000" />
       <workItem from="1661719939585" duration="78000" />
+=======
+      <updated>1661640545050</updated>
+      <workItem from="1661640546332" duration="3126000" />
+      <workItem from="1661643813157" duration="5185000" />
+      <workItem from="1661707835790" duration="451000" />
+      <workItem from="1661715524611" duration="3465000" />
+      <workItem from="1661719808412" duration="228000" />
+      <workItem from="1661720474896" duration="8427000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Esta es mi Branch!!!">
       <created>1661028023472</created>
@@ -102,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661028023472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sprint 2&#10;Creacion de Clases : Empresa,Empleado,movimientoDinero">
+      <created>1661732298616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661732298616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,8 +143,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< Updated upstream
     <MESSAGE value="Esta es mi branch =)" />
     <MESSAGE value="Esta es mi Branch!!!" />
     <option name="LAST_COMMIT_MESSAGE" value="Esta es mi Branch!!!" />
+=======
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Sprint 2" />
+    <MESSAGE value="Sprint 2&#10;Creacion de Clases : Empresa,Empleado,movimientoDinero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprint 2&#10;Creacion de Clases : Empresa,Empleado,movimientoDinero" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+>>>>>>> Stashed changes
   </component>
 </project>
