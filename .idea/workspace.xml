@@ -1,48 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="861d2966-dba2-4c42-a0b5-769c3fadaed5" name="Changes" comment="Esta es mi Branch!!!" />
-=======
-    <list default="true" id="d66423a7-ef63-46cd-bb0a-dc3a8d5d8893" name="Changes" comment="Sprint 2&#10;Creacion de Clases : Empresa,Empleado,movimientoDinero">
+    <list default="true" id="99d44297-2c64-4063-accd-ffdbf8af173f" name="Changes" comment="">
+      <changelist_data name="LinaGrajales" email="104029351+linagrag@users.noreply.github.com" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="LinaGrajales &lt;104029351+linagrag@users.noreply.github.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,77 +29,23 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/INTELLIJ IDEA CODIGOS/com.linag.ciclo3&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;908e142e117df207d4269d46a04a7cb4&quot;
+    &quot;last_opened_file_path&quot;: &quot;E:/INTELLIJ IDEA CODIGOS/TrabajoEnClaseCiclo3&quot;
+    
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Ciclo3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SoftCodeSA" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linag.ciclo3.Ciclo3Application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linag.ciclo3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.Ciclo3Application" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="861d2966-dba2-4c42-a0b5-769c3fadaed5" name="Changes" comment="Esta es mi Branch!!!" />
+      <changelist id="99d44297-2c64-4063-accd-ffdbf8af173f" name="Changes" comment="" />
       <created>1660933262944</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< Updated upstream
       <updated>1660933262944</updated>
       <workItem from="1660933265504" duration="54000" />
-      <workItem from="1661027451597" duration="226000" />
-      <workItem from="1661301656727" duration="152000" />
-      <workItem from="1661027995331" duration="699000" />
-      <workItem from="1661643814434" duration="212000" />
-      <workItem from="1661719939585" duration="78000" />
-=======
-      <updated>1661640545050</updated>
-      <workItem from="1661640546332" duration="3126000" />
-      <workItem from="1661643813157" duration="5185000" />
-      <workItem from="1661707835790" duration="451000" />
-      <workItem from="1661715524611" duration="3465000" />
-      <workItem from="1661719808412" duration="228000" />
-      <workItem from="1661720474896" duration="8427000" />
->>>>>>> Stashed changes
     </task>
-    <task id="LOCAL-00001" summary="Esta es mi Branch!!!">
-      <created>1661028023472</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1661028023472</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Sprint 2&#10;Creacion de Clases : Empresa,Empleado,movimientoDinero">
-      <created>1661732298616</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1661732298616</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,19 +63,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-<<<<<<< Updated upstream
-    <MESSAGE value="Esta es mi branch =)" />
-    <MESSAGE value="Esta es mi Branch!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Esta es mi Branch!!!" />
-=======
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sprint 2" />
-    <MESSAGE value="Sprint 2&#10;Creacion de Clases : Empresa,Empleado,movimientoDinero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprint 2&#10;Creacion de Clases : Empresa,Empleado,movimientoDinero" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
->>>>>>> Stashed changes
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
