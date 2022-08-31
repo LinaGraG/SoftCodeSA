@@ -8,16 +8,12 @@ import com.linag.ciclo3.clases.MovimientoDinero;
 public class main {
 
     public static void main(String[] args) {
-        Empresa empresa = new Empresa(1215464, "jdjsdjjsdlk","564jdhdhd","121112", "hshshs");
-        Empleado empleado = new Empleado(113231212,"465444","jjjlkj@hkjhkh",empresa,"administrador");
-        MovimientoDinero movimientoDinero= new MovimientoDinero(121332,54644.64654,"hfhfhfhfh",empleado);
+        Empresa empresa = new Empresa(0102030405, "Code Doom S.A.S","Calle Luna-Calle Sol","123654789", "911-200101");
+        Empleado empleado = new Empleado(0102030405,"GONZALEZ,ROSA JULIA", "RosaJGonza@gmail.com", empresa, "administrativo");
+        MovimientoDinero movimientoDinero= new MovimientoDinero(0102030405,546.4464654,"ingreso",empleado);
         System.out.println(empresa);
         System.out.println(empleado);
         System.out.println(movimientoDinero);
-
-
-//EMPRESA
-
 
     }
 }
