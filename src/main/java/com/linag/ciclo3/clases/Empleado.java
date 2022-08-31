@@ -1,33 +1,34 @@
 package com.linag.ciclo3.clases;
 
 
-
 public class Empleado {
     //Atributos
     private int Id;
-    private String nombreEmpleado;
-    private String correoEmpleado;
-    private String empresaEmpleado;
-    private String rolEmpleado;
+    private String usuario;
+    private String correo;
+    private Empresa empresa;
+    private String rol;
 
-
-//Constructor
-
-    public Empleado(String nombreEmpleado, String correoEmpleado, String empresaEmpleado, String rolEmpleado) {
-        this.nombreEmpleado = nombreEmpleado;
-        this.correoEmpleado = correoEmpleado;
-        this.empresaEmpleado = empresaEmpleado;
-        this.rolEmpleado = rolEmpleado;
+    public Empleado(int id, String usuario, String correo, Empresa empresa, String rol) {
+        Id = id;
+        this.usuario = usuario;
+        this.correo = correo;
+        this.empresa = empresa;
+        this.rol = rol;
     }
 
-    public Empleado(String nombreEmpleado, String correoEmpleado, String administrativo) {
+//    public Empleado(int id, String usuario, String correo, Empresa empresa, String rol) {
+//        Id = id;
+//
+//        this.correo = correo;
+//        this.empresa = empresa;
+//        if (rol.equalsIgnoreCase("administrador") || rol.equalsIgnoreCase("operativo")) {
+//            this.rol = rol;
+//        } else {
+//            System.out.println("Este rol no existe;");
+//        }
 
-    }
-
-    //METODO
-
-    //getters and setters
-
+//    }
 
     public int getId() {
         return Id;
@@ -37,35 +38,48 @@ public class Empleado {
         Id = id;
     }
 
-    public String getNombreEmpleado() {
-        return nombreEmpleado;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setNombreEmpleado(String nombreEmpleado) {
-        this.nombreEmpleado = nombreEmpleado;
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
     }
 
-    public String getCorreoEmpleado() {
-        return correoEmpleado;
+
+    public String getCorreo() {
+        return correo;
     }
 
-    public void setCorreoEmpleado(String correoEmpleado) {
-        this.correoEmpleado = correoEmpleado;
+    public void setCorreo(String correo) {
+        this.correo = correo;
     }
 
-    public String getEmpresaEmpleado() {
-        return empresaEmpleado;
+    public Empresa getEmpresa() {
+        return empresa;
     }
 
-    public void setEmpresaEmpleado(String empresaEmpleado) {
-        this.empresaEmpleado = empresaEmpleado;
+    public void setEmpresa(Empresa empresa) {
+        this.empresa = empresa;
     }
 
-    public String getRolEmpleado() {
-        return rolEmpleado;
+    public String getRol() {
+        return rol;
     }
 
-    public void setRolEmpleado(String rolEmpleado) {
-        this.rolEmpleado = rolEmpleado;
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "Id=" + Id +
+                ", usuario='" + usuario + '\'' +
+                ", correo='" + correo + '\'' +
+                ", empresa=" + empresa +
+                ", rol='" + rol + '\'' +
+                '}';
     }
 }
+

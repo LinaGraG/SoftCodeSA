@@ -2,55 +2,55 @@ package com.linag.ciclo3.clases;
 
 public class Empresa {
     //Atributos
-    private int Id;
-    private String nombreEmpresa;
-    private String direccionEmpresa;
-    private String telefonoEmpresa;
+    private int id;
+    private String nombre;
+    private String direccion;
+    private String telefono;
     private String NIT;
 
     //Constructor
 
-    public Empresa(String nombreEmpresa, String direccionEmpresa, String telefonoEmpresa, String NIT) {
-        this.nombreEmpresa = nombreEmpresa;
-        this.direccionEmpresa = direccionEmpresa;
-        this.telefonoEmpresa = telefonoEmpresa;
+
+    public Empresa(int id, String nombre, String direccion, String telefono, String NIT) {
+        this.id = id;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
         this.NIT = NIT;
     }
-//METODO
 
 
-    //getters and setters
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        id = id;
     }
 
-    public String getNombreEmpresa() {
-        return nombreEmpresa;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNombreEmpresa(String nombreEmpresa) {
-        this.nombreEmpresa = nombreEmpresa;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public String getDireccionEmpresa() {
-        return direccionEmpresa;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setDireccionEmpresa(String direccionEmpresa) {
-        this.direccionEmpresa = direccionEmpresa;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 
-    public String getTelefonoEmpresa() {
-        return telefonoEmpresa;
+    public String getTelefono() {
+        return telefono;
     }
 
-    public void setTelefonoEmpresa(String telefonoEmpresa) {
-        this.telefonoEmpresa = telefonoEmpresa;
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
     }
 
     public String getNIT() {
@@ -59,5 +59,16 @@ public class Empresa {
 
     public void setNIT(String NIT) {
         this.NIT = NIT;
+    }
+
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", NIT='" + NIT + '\'' +
+                '}';
     }
 }

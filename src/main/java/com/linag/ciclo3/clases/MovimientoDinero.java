@@ -4,31 +4,16 @@ public class MovimientoDinero {
 
 //Atributos
     private int Id;
-    private long montoMovimiento;
-    private String conceptoMovimiento;
-    private String empleado;
-    private String empresa;
+    private double monto;
+    private String concepto;
+    private Empleado usuario;
 
-    //Constructor
-
-
-    public MovimientoDinero(long montoMovimiento, String conceptoMovimiento, String empleado, String empresa) {
-        this.montoMovimiento = montoMovimiento;
-        this.conceptoMovimiento = conceptoMovimiento;
-        this.empleado = empleado;
-        this.empresa = empresa;
+    public MovimientoDinero(int id, double monto, String concepto, Empleado usuario) {
+        Id = id;
+        this.monto = monto;
+        this.concepto = concepto;
+        this.usuario = usuario;
     }
-
-
-
-
-
-    //Metodos
-
-
-
-    //Getters and setters
-
 
     public int getId() {
         return Id;
@@ -38,35 +23,37 @@ public class MovimientoDinero {
         Id = id;
     }
 
-    public long getMontoMovimiento() {
-        return montoMovimiento;
+    public double getMonto() {
+        return monto;
     }
 
-    public void setMontoMovimiento(long montoMovimiento) {
-        this.montoMovimiento = montoMovimiento;
+    public void setMonto(double monto) {
+        this.monto = monto;
     }
 
-    public String getConceptoMovimiento() {
-        return conceptoMovimiento;
+    public String getConcepto() {
+        return concepto;
     }
 
-    public void setConceptoMovimiento(String conceptoMovimiento) {
-        this.conceptoMovimiento = conceptoMovimiento;
+    public void setConcepto(String concepto) {
+        this.concepto = concepto;
     }
 
-    public String getEmpleado() {
-        return empleado;
+    public Empleado getUsuario() {
+        return usuario;
     }
 
-    public void setEmpleado(String empleado) {
-        this.empleado = empleado;
+    public void setUsuario(Empleado usuario) {
+        this.usuario = usuario;
     }
 
-    public String getEmpresa() {
-        return empresa;
-    }
-
-    public void setEmpresa(String empresa) {
-        this.empresa = empresa;
+    @Override
+    public String toString() {
+        return "MovimientoDinero{" +
+                "Id=" + Id +
+                ", monto=" + monto +
+                ", concepto='" + concepto + '\'' +
+                ", usuario=" + usuario +
+                '}';
     }
 }
