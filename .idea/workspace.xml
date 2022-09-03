@@ -152,6 +152,7 @@
       <workItem from="1661906711000" duration="2081000" />
       <workItem from="1661943918469" duration="44000" />
       <workItem from="1661972593468" duration="11968000" />
+      <workItem from="1662236270256" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="Sprint 2">
       <created>1661720668025</created>
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661988882964</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Sprint 2..Creacion de Clases&#10;Se agrego UML&#10;Correcion sprint2">
+      <created>1662236292126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662236292126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
