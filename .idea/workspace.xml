@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d44297-2c64-4063-accd-ffdbf8af173f" name="Changes" comment="sprint 3 base">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/controllers/FullController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/entities/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/entities/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/entities/MovimientoDinero.java" afterDir="false" />
+    <list default="true" id="99d44297-2c64-4063-accd-ffdbf8af173f" name="Changes" comment="sprint 3 base funciona html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/Empresa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/clases/MovimientoDinero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +73,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/INTELLIJ IDEA CODIGOS/TrabajoEnClaseCiclo3",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "5d52821ea14dc2245e01c1836aece84e"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -128,7 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660933262944</updated>
       <workItem from="1660933265504" duration="54000" />
-      <workItem from="1662314973983" duration="7987000" />
+      <workItem from="1662314973983" duration="9271000" />
+      <workItem from="1662328916512" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 2 base">
       <created>1662315101269</created>
@@ -144,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662315234135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sprint 3 base funciona html">
+      <created>1662325654165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662325654165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sprint 2 base" />
     <MESSAGE value="sprint 3 base" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 3 base" />
+    <MESSAGE value="sprint 3 base funciona html" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 3 base funciona html" />
   </component>
 </project>
