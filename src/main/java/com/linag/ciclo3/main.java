@@ -7,13 +7,11 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.LocalDate;
-
 @SpringBootApplication ( exclude = {SecurityAutoConfiguration.class})
 @RestController
 public class main {
-    @GetMapping("/enterprises")
-    public String enterprises(){
+    @GetMapping("/hello")
+    public String hello(){
         return "Este es Sprint 3..haber si sale algo";
     }
 

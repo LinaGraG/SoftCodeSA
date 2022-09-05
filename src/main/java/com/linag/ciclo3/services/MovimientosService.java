@@ -1,8 +1,7 @@
-package com.linag.ciclo3.service;
+package com.linag.ciclo3.services;
 
+/*
 
-import com.linag.ciclo3.modelos.Empresa;
-import com.linag.ciclo3.modelos.MovimientoDinero;
 import com.linag.ciclo3.repo.MovimientosRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,9 +14,9 @@ import java.util.List;
 
 public class MovimientosService {
     @Autowired
-    MovimientosRepository movimientosRepository;
+    MovimientosRepository movimientosRepository;*/
 
-//!!!SERVICIOS BASICOS ENTIDAD MOVIMIENTO!!!
+/*//!!!SERVICIOS BASICOS ENTIDAD MOVIMIENTO!!!
 
     //Metodo que muestra todods loa movimientos sin ningun filtro
     public List<MovimientoDinero> getAllMovimientos() {
@@ -54,6 +53,6 @@ public class MovimientosService {
     public ArrayList<MovimientoDinero> obtenerPorEmpresa(Integer id){
         return movimientosRepository.findByEmpresa(id);
 
-    }
-}
+    }*/
+
 

@@ -1,6 +1,7 @@
+/*
 package com.linag.ciclo3.repo;
 
-import com.linag.ciclo3.modelos.Empleado;
+import com.linag.ciclo3.entities.Empleado;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
@@ -16,3 +17,4 @@ public interface EmpleadoRepository extends CrudRepository<Empleado,Integer> {
 
     public abstract ArrayList<Empleado> findByEmpresa(Integer id);
 }
+*/

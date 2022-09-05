@@ -1,5 +1,7 @@
+/*
 package com.linag.ciclo3.repo;
 
+import com.linag.ciclo3.entities.MovimientoDinero;
 import com.linag.ciclo3.modelos.MovimientoDinero;
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -16,10 +18,10 @@ public interface MovimientosRepository  extends JpaRepository <MovimientoDinero,
     //!!!METODO QUE FILTRA MOVIMINETOS POR EMPLEADO
 
     @Query (value = "SELECT	*	FROM movimientos WHERE empleado_id=?1", nativeQuery = true)
-    public abstract ArrayList<MovimientoDinero> findByEmpleado( Integer id);
+    public abstract ArrayList<MovimientoDinero> findByEmpleado(Integer id);
 
 
 //!!!!METODO PARA FILTRAR MOVIMIENTOS POR EMPRESA
 @Query(value="select * from movimientos where empleado_id in (select id from empleado where empresa_id= ?1)", nativeQuery = true)
 public abstract ArrayList<MovimientoDinero> findByEmpresa(Integer id);
-}
+}*/
