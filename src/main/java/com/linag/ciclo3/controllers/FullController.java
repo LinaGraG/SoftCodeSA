@@ -28,11 +28,13 @@ public class FullController {
             return this.empresaService.saveOrUpdateEmpresa(emp);
 
         }
+
         //GET POR ID responses 200 en la ruta enterprises/[id]
         @GetMapping(path = "enterprises/{id}")
         public Empresa empresaPorID(@PathVariable("id") Integer id) {
             return this.empresaService.getEmpresaById(id);
         }
+
         //PATCH POR ID responses 200 en la ruta enterprises/[id]
         @PatchMapping("/enterprises/{id}")
         public Empresa actualizarEmpresa(@PathVariable("id") Integer id, @RequestBody Empresa empresa) {
@@ -43,6 +45,17 @@ public class FullController {
             emp.setNIT(empresa.getNIT());
             return empresaService.saveOrUpdateEmpresa(emp);
 
+        }
+
+        //DELETE ENTERPRISE POR ID
+        @DeleteMapping(path = "enterprises/{id}")
+        public String DeleteEmpresa(@PathVariable("id") Integer id) {
+            boolean respuesta = this.empresaService.deleteEmpresa(id);
+            if (respuesta) {  //Si respuesta es true?
+                return "Company successfully removed by id" + id;
+            } else {
+                return "Could not delete company by id" + id;
+            }
         }
     }
 }
@@ -68,15 +81,7 @@ public class FullController {
 
 
 
-        //Borrar empresa
-        @DeleteMapping(path = "enterprises/{id}") //Eliminar registro de la bd
-        public String DeleteEmpresa(@PathVariable("id") Integer id) {
-            boolean respuesta = this.empresaService.deleteEmpresa(id);
-            if (respuesta) {  //Si respuesta es true?
-                return "Se elimino la empresa con id" + id;
-            } else {
-                return "No se pudo eliminar la empresa con id" + id;
-            }
+        //
         }*/
        /* //EMPLEADOS
 
