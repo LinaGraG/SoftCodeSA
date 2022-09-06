@@ -1,4 +1,4 @@
-package com.linag.ciclo3.entities;
+package com.Alejonal91.ciclo3.entities;
 
 
 import javax.persistence.*;

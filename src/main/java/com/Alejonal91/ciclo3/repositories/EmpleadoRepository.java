@@ -1,7 +1,7 @@
-package com.linag.ciclo3.repositories;
+package com.Alejonal91.ciclo3.repositories;
 
 /*
-import com.linag.ciclo3.entities.Empleado;
+import Empleado;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

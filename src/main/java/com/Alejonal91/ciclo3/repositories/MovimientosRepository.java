@@ -1,7 +1,7 @@
-package com.linag.ciclo3.repositories;
+package com.Alejonal91.ciclo3.repositories;
 
 /*
-import com.linag.ciclo3.entities.MovimientoDinero;
+import MovimientoDinero;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

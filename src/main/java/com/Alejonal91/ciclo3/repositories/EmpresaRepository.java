@@ -1,6 +1,6 @@
-package com.linag.ciclo3.repositories;
+package com.Alejonal91.ciclo3.repositories;
 
-import com.linag.ciclo3.entities.Empresa;
+import com.Alejonal91.ciclo3.entities.Empresa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

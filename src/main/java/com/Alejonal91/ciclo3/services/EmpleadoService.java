@@ -1,6 +1,6 @@
-package com.linag.ciclo3.services;
+package com.Alejonal91.ciclo3.services;
 /*
-import com.linag.ciclo3.entities.Empleado;
+import Empleado;
 import com.linag.ciclo3.modelos.Empleado;
 import com.linag.ciclo3.repo.EmpleadoRepository;
 import com.linag.ciclo3.repositories.EmpleadoRepository;

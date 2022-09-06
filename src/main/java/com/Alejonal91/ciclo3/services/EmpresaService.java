@@ -1,7 +1,7 @@
-package com.linag.ciclo3.services;
+package com.Alejonal91.ciclo3.services;
 
-import com.linag.ciclo3.entities.Empresa;
-import com.linag.ciclo3.repositories.EmpresaRepository;
+import com.Alejonal91.ciclo3.entities.Empresa;
+import com.Alejonal91.ciclo3.repositories.EmpresaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

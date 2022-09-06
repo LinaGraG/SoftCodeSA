@@ -1,8 +1,8 @@
-package com.linag.ciclo3.controllers;
+package com.Alejonal91.ciclo3.controllers;
 
 
-import com.linag.ciclo3.entities.Empresa;
-import com.linag.ciclo3.services.EmpresaService;
+import com.Alejonal91.ciclo3.entities.Empresa;
+import com.Alejonal91.ciclo3.services.EmpresaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
