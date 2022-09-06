@@ -66,6 +66,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -119,7 +120,7 @@
       <workItem from="1662339065931" duration="5110000" />
       <workItem from="1662393656675" duration="19000" />
       <workItem from="1662415781288" duration="600000" />
-      <workItem from="1662416395871" duration="7832000" />
+      <workItem from="1662416395871" duration="9532000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 2 base">
       <created>1662315101269</created>
@@ -163,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662425113073</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE">
+      <created>1662427867765</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662427867765</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -70,19 +70,10 @@ public class FullController {
 
 //EMPRESAS
 
-//Ver json de todas las empresas
-
-
-       /* //
-
-        }
-
-        //
 
 
 
-        //
-        }*/
+
        /* //EMPLEADOS
 
         //Ver json de todos los empleados
