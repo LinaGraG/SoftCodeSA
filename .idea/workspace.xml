@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d44297-2c64-4063-accd-ffdbf8af173f" name="Changes" comment="saludos...AC">
+    <list default="true" id="99d44297-2c64-4063-accd-ffdbf8af173f" name="Changes" comment="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Alejonal91/ciclo3/Ciclo3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Alejonal91/ciclo3/Ciclo3Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/controllers/FullController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/controllers/FullController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -21,15 +28,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -50,15 +64,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Project.color&quot;: &quot;0f2758&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/INTELLIJ IDEA CODIGOS/TrabajoEnClaseCiclo3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/INTELLIJ IDEA CODIGOS/TrabajoEnClaseCiclo3",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "5d52821ea14dc2245e01c1836aece84e"
   }
-}</component>
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ciclo3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.linag.ciclo3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linag.ciclo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +115,63 @@
       <option name="presentableId" value="Default" />
       <updated>1660933262944</updated>
       <workItem from="1660933265504" duration="54000" />
+      <workItem from="1662314973983" duration="9271000" />
+      <workItem from="1662328916512" duration="136000" />
+      <workItem from="1662339065931" duration="5110000" />
+      <workItem from="1662393656675" duration="19000" />
+      <workItem from="1662415781288" duration="600000" />
+      <workItem from="1662416395871" duration="9532000" />
     </task>
+    <task id="LOCAL-00001" summary="sprint 2 base">
+      <created>1662315101269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662315101269</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sprint 3 base">
+      <created>1662315234135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662315234135</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sprint 3 base funciona html">
+      <created>1662325654165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662325654165</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;Funciona get">
+      <created>1662345053658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662345053658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;Funciona get">
+      <created>1662415821081</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662415821081</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE">
+      <created>1662425113073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662425113073</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE">
+      <created>1662427867765</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662427867765</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +189,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="sprint 2 base" />
+    <MESSAGE value="sprint 3 base" />
+    <MESSAGE value="sprint 3 base funciona html" />
+    <MESSAGE value="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;Funciona get" />
+    <MESSAGE value="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE" />
   </component>
 </project>

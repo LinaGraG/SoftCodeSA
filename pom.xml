@@ -8,11 +8,11 @@
 		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.Alejonal91</groupId>
+	<groupId>com.linag</groupId>
 	<artifactId>ciclo3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ciclo3</name>
-	<description>Demo project for Spring Boot(mintic)</description>
+	<description>Desarrollo de software MinTIC</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
