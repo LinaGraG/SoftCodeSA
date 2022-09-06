@@ -15,9 +15,34 @@ public class FullController {
     public class Controllerfull {
         @Autowired
         EmpresaService empresaService;
+
+        //GET ENTERPRISES
         @GetMapping("/enterprises")
         public List<Empresa> verEmpresas() {
             return empresaService.getAllEmpresas();
+        }
+
+        //POST ENTERPRISES
+        @PostMapping("/enterprises")
+        public Empresa guardarEmpresa(@RequestBody Empresa emp) {
+            return this.empresaService.saveOrUpdateEmpresa(emp);
+
+        }
+        //GET POR ID responses 200 en la ruta enterprises/[id]
+        @GetMapping(path = "enterprises/{id}")
+        public Empresa empresaPorID(@PathVariable("id") Integer id) {
+            return this.empresaService.getEmpresaById(id);
+        }
+        //PATCH POR ID responses 200 en la ruta enterprises/[id]
+        @PatchMapping("/enterprises/{id}")
+        public Empresa actualizarEmpresa(@PathVariable("id") Integer id, @RequestBody Empresa empresa) {
+            Empresa emp = empresaService.getEmpresaById(id);
+            emp.setNombre(empresa.getNombre());
+            emp.setDireccion(empresa.getDireccion());
+            emp.setTelefono(empresa.getTelefono());
+            emp.setNIT(empresa.getNIT());
+            return empresaService.saveOrUpdateEmpresa(emp);
+
         }
     }
 }
@@ -30,35 +55,18 @@ public class FullController {
         MovimientosService movimientosService;
 */
 
-        //EMPRESAS
+//EMPRESAS
 
-        //Ver json de todas las empresas
+//Ver json de todas las empresas
 
 
-       /* //Guardar el json del body como una nueva empresa o registro en nuestra bd
-        @PostMapping("/enterprises")
-        public Empresa guardarEmpresa(@RequestBody Empresa emp) {
-            return this.empresaService.saveOrUpdateEmpresa(emp);
+       /* //
 
         }
 
-        //responses 200 en la ruta enterprises/[id]  GET
-        @GetMapping(path = "enterprises/{id}")
-        public Empresa empresaPorID(@PathVariable("id") Integer id) {
-            return this.empresaService.getEmpresaById(id);
-        }
+        //
 
-        //Actualizar Empresa (patch full)
-        @PatchMapping("/enterprises/{id}")
-        public Empresa actualizarEmpresa(@PathVariable("id") Integer id, @RequestBody Empresa empresa) {
-            Empresa emp = empresaService.getEmpresaById(id);
-            emp.setNombre(empresa.getNombre());
-            emp.setDireccion(empresa.getDireccion());
-            emp.setTelefono(empresa.getTelefono());
-            emp.setNIT(empresa.getNIT());
-            return empresaService.saveOrUpdateEmpresa(emp);
 
-        }
 
         //Borrar empresa
         @DeleteMapping(path = "enterprises/{id}") //Eliminar registro de la bd
