@@ -1,12 +1,16 @@
 package com.linag.ciclo3.controllers;
 
 
+import com.linag.ciclo3.entities.Empleado;
 import com.linag.ciclo3.entities.Empresa;
+import com.linag.ciclo3.services.EmpleadoService;
 import com.linag.ciclo3.services.EmpresaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class FullController {
@@ -15,6 +19,12 @@ public class FullController {
     public class Controllerfull {
         @Autowired
         EmpresaService empresaService;
+
+        @Autowired
+        EmpleadoService empleadoService;
+
+       /* @Autowired
+        MovimientosService movimientosService;*/
 
         //GET ENTERPRISES
         @GetMapping("/enterprises")
@@ -57,51 +67,31 @@ public class FullController {
                 return "Could not delete company by id" + id;
             }
         }
-    }
-}
+       /* EMPLEADOS*/
 
-
-    /*    @Autowired
-        EmpleadoService empleadoService;
-
-        @Autowired
-        MovimientosService movimientosService;
-*/
-
-//EMPRESAS
-
-
-
-
-
-       /* //EMPLEADOS
-
-        //Ver json de todos los empleados
-        @GetMapping("/empleados")
-        public List<Empleado> verEmpleados() {
+        //EMPLEADOS
+        @GetMapping("/users") //Ver json de todas los empleados
+        public List<Empleado> verEmpleados(){
             return empleadoService.getAllEmpleado();
         }
 
-        @PostMapping("/empleados") //Guardar un empleado nuevo
-        public Optional<Empleado> guardarEmpleado(@RequestBody Empleado empl) {
+        @PostMapping("/users") //Guardar un empleado nuevo
+        public Optional<Empleado> guardarEmpleado(@RequestBody Empleado empl){
             return Optional.ofNullable(this.empleadoService.saveOrUpdateEmpleado(empl));
         }
-
-        @GetMapping("/empleados/{id}")//Consultar empleado por ID
-        public Optional<Empleado> empleadoPorID(@PathVariable("id") Integer id) {
+        @GetMapping(path = "users/{id}")//Consultar empleado por ID
+        public Optional<Empleado> empleadoPorID(@PathVariable("id") Integer id){
             return this.empleadoService.getEmpleadoById(id);
         }
 
-
-        @GetMapping("/enterprises/{id}/empleados")// Consultar empleados por empresa
-        public ArrayList<Empleado> EmpleadoPorEmpresa(@PathVariable("id") Integer id) {
+        @GetMapping("/enterprises/{id}/users")// Consultar empleados por empresa
+        public ArrayList<Empleado> EmpleadoPorEmpresa(@PathVariable("id") Integer id){
             return this.empleadoService.obtenerPorEmpresa(id);
-
         }
 
-        @PatchMapping("/empleados/{id}") //Metodo para modificar empleado por id
-        public Empleado actualizarEmpleado(@PathVariable("id") Integer id, @RequestBody Empleado empleado) {
-            Empleado empl = empleadoService.getEmpleadoById(id).get();
+        @PatchMapping("/users/{id}")
+        public Empleado actualizarEmpleado(@PathVariable("id") Integer id, @RequestBody Empleado empleado){
+            Empleado empl=empleadoService.getEmpleadoById(id).get();
             empl.setNombre(empleado.getNombre());
             empl.setCorreo(empleado.getCorreo());
             empl.setEmpresa(empleado.getEmpresa());
@@ -109,15 +99,29 @@ public class FullController {
             return empleadoService.saveOrUpdateEmpleado(empl);
         }
 
-        @DeleteMapping("/empleados/{id}") //Metodo para eliminar empleado por id
-        public String DeleteEmpleado(@PathVariable("id") Integer id) {
-            boolean respuesta = empleadoService.deleteEmpleado(id); //eliminamos el servicio de nuestro service
-            if (respuesta) {// si la respusta boolean es true, si se elimino
-                return "Se puedo eliminar correctamente el empleado con id" + id;
-
-            }// si la respusta boolean es false, no se elimino
-            return "No se pudo eliminar correctamente el empleado con id" + id;
+        @DeleteMapping("/users/{id}") //Metodo para eliminar empleados por id
+        public String DeleteEmpleado(@PathVariable("id") Integer id){
+            boolean respuesta=empleadoService.deleteEmpleado(id); //eliminamos usando el servicio de nuestro service
+            if (respuesta){ //si la respuesta booleana es true, si se eliminò
+                return "The employee with ID could be deleted successfully "+ id;
+            }//Si la respuesta booleana es false, no se eliminó
+            return "Failed to successfully remove employee with Id "+ id;
         }
+    }
+}
+
+
+
+
+       /*
+
+
+
+
+
+
+
+
 //MOVIMIENTOS
 
         //Consultar los moviminetos

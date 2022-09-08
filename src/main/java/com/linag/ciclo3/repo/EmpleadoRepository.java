@@ -1,4 +1,3 @@
-/*
 package com.linag.ciclo3.repo;
 
 import com.linag.ciclo3.entities.Empleado;
@@ -17,4 +16,3 @@ public interface EmpleadoRepository extends CrudRepository<Empleado,Integer> {
 
     public abstract ArrayList<Empleado> findByEmpresa(Integer id);
 }
-*/
