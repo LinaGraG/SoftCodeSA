@@ -111,20 +111,9 @@ public class FullController {
 }
 
 
-
-
-       /*
-
-
-
-
-
-
-
-
 //MOVIMIENTOS
 
-        //Consultar los moviminetos
+        /*//Consultar los moviminetos
         @GetMapping("/movimientos")
         public List<MovimientoDinero> verMovimientos() {
             return movimientosService.getAllMovimientos();

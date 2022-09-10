@@ -4,7 +4,7 @@ package com.linag.ciclo3.services;
 
 import com.linag.ciclo3.entities.Empleado;
 
-import com.linag.ciclo3.repo.EmpleadoRepository;
+import com.linag.ciclo3.repositories.EmpleadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
