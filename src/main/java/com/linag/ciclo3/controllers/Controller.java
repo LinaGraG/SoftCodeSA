@@ -13,18 +13,15 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-public class FullController {
+public class Controller {
 
-    @RestController
-    public class Controllerfull {
         @Autowired
         EmpresaService empresaService;
 
         @Autowired
         EmpleadoService empleadoService;
 
-       /* @Autowired
-        MovimientosService movimientosService;*/
+
 
         //GET ENTERPRISES
         @GetMapping("/enterprises")
@@ -108,7 +105,7 @@ public class FullController {
             return "Failed to successfully remove employee with Id "+ id;
         }
     }
-}
+
 
 
 //MOVIMIENTOS
