@@ -8,6 +8,7 @@ import com.linag.ciclo3.services.EmpleadoService;
 import com.linag.ciclo3.services.EmpresaService;
 import com.linag.ciclo3.services.MovDineroService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.annotation.Id;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -117,9 +118,8 @@ public class Controller {
     }
 
     @PostMapping("/movements")
-    public MovimientoDinero guardarMovDinero(@RequestBody MovimientoDinero movimiento) {
+    public MovimientoDinero guardarMovimiento(@RequestBody MovimientoDinero movimiento) {
         return movDineroService.saveOrUpdateMovDinero(movimiento);
-
     }
 
     @GetMapping("/movements/{id}")
@@ -156,10 +156,21 @@ public class Controller {
     public ArrayList<MovimientoDinero> movimientosPorEmpresa(@PathVariable("id") Integer id) {
         return movDineroService.obtenerPorEmpresa(id);
     }
-/*
-    @PostMapping("/enterprises/{id}/movements")
-    public Empresa MovDineroPorId(@RequestBody Empresa emp) {
-        return this.empresaService.saveOrUpdateEmpresa(emp);
 
-    }*/
+    @DeleteMapping("/enterprises/{id}/movements")
+
+    public String deleteMovimientoPorEmpresa(@PathVariable("id") Integer id) {
+        boolean respuesta = empresaService.deleteEmpresa(id);
+        if (respuesta) {
+            return "se borro" + id;
+
+        }
+        return "no se borro" + id;
+
+
+    }
 }
+
+
+
+
