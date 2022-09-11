@@ -115,41 +115,50 @@ public class Controller {
     public List<MovimientoDinero> verMovDinero() {
         return movDineroService.getAllMovDinero();
     }
-    @PostMapping ("/movements")
-    public MovimientoDinero guardarMovDinero(@RequestBody MovimientoDinero movimiento){
+
+    @PostMapping("/movements")
+    public MovimientoDinero guardarMovDinero(@RequestBody MovimientoDinero movimiento) {
         return movDineroService.saveOrUpdateMovDinero(movimiento);
 
     }
+
     @GetMapping("/movements/{id}")
-    public MovimientoDinero movimientoPorId(@PathVariable("id") Integer id){
+    public MovimientoDinero movimientoPorId(@PathVariable("id") Integer id) {
         return movDineroService.getMovDineroById(id);
     }
 
     @PatchMapping("/movements/{id}")
-    public MovimientoDinero actualizarMovimiento(@PathVariable("id") Integer id,@RequestBody MovimientoDinero movimiento){
-        MovimientoDinero mov=movDineroService.getMovDineroById(id);
+    public MovimientoDinero actualizarMovimiento(@PathVariable("id") Integer id, @RequestBody MovimientoDinero movimiento) {
+        MovimientoDinero mov = movDineroService.getMovDineroById(id);
         mov.setConcepto(movimiento.getConcepto());
         mov.setMonto(movimiento.getMonto());
         mov.setUsuario(movimiento.getUsuario());
         return movDineroService.saveOrUpdateMovDinero(mov);
     }
-    @DeleteMapping("/movements/{id}")
-    public String deleteMovimiento(@PathVariable("id") Integer id){
-      boolean respuesta= movDineroService.deleteMovimientoDinero(id);
-      if(respuesta){
-          return "Successfully deleted move with Id" + id;
 
-      }
-      return "Could not delete move with Id" + id;
+    @DeleteMapping("/movements/{id}")
+    public String deleteMovimiento(@PathVariable("id") Integer id) {
+        boolean respuesta = movDineroService.deleteMovimientoDinero(id);
+        if (respuesta) {
+            return "Successfully deleted move with Id" + id;
+
+        }
+        return "Could not delete move with Id" + id;
     }
 
-@GetMapping ("/users/{id}/movements")
-    public ArrayList<MovimientoDinero> movimientosPorEmpleado(@PathVariable("id") Integer id){
+    @GetMapping("/users/{id}/movements")
+    public ArrayList<MovimientoDinero> movimientosPorEmpleado(@PathVariable("id") Integer id) {
         return movDineroService.obtenerPorEmpleado(id);
-}
-@GetMapping("/enterprises/{id}/movements")
-    public ArrayList<MovimientoDinero> movimientosPorEmpresa(@PathVariable("id") Integer id){
-        return movDineroService.obtenerPorEmpresa(id);
-}
+    }
 
+    @GetMapping("/enterprises/{id}/movements")
+    public ArrayList<MovimientoDinero> movimientosPorEmpresa(@PathVariable("id") Integer id) {
+        return movDineroService.obtenerPorEmpresa(id);
+    }
+
+    @PostMapping("/enterprises/{id}/movements")
+    public Empresa MovDineroPorId(@RequestBody Empresa emp) {
+        return this.empresaService.saveOrUpdateEmpresa(emp);
+
+    }
 }
