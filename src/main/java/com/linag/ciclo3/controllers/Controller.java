@@ -126,11 +126,6 @@ public class Controller {
     public MovimientoDinero movimientoPorId(@PathVariable("id") Integer id) {
         return movDineroService.getMovDineroById(id);
 
-
-    }
-    @GetMapping("/enterprises/{id}/movements")
-    public ArrayList<MovimientoDinero> movimientosPorEmpresa(@PathVariable("id") Integer id) {
-        return movDineroService.obtenerPorEmpresa(id);
     }
 
     @PatchMapping("/movements/{id}")
@@ -157,10 +152,10 @@ public class Controller {
         return movDineroService.obtenerPorEmpleado(id);
     }
 
-    /*@GetMapping("/enterprises/{id}/movements")
+    @GetMapping("/enterprises/{id}/movements")
     public ArrayList<MovimientoDinero> movimientosPorEmpresa(@PathVariable("id") Integer id) {
         return movDineroService.obtenerPorEmpresa(id);
-    }*/
+    }
 /*
     @PostMapping("/enterprises/{id}/movements")
     public Empresa MovDineroPorId(@RequestBody Empresa emp) {

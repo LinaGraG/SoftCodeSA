@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d44297-2c64-4063-accd-ffdbf8af173f" name="Changes" comment="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE&#10;&#10;http://localhost:8080/users/&#10;El sistema devuelve responses 200 en la ruta&#10;/users con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/users/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE" />
+    <list default="true" id="d66423a7-ef63-46cd-bb0a-dc3a8d5d8893" name="Changes" comment="Sprint 2..Creacion de Clases&#10;Se agrego UML&#10;Correcion sprint2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/controllers/Controller.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +89,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2DaNVlDZXg4Tsxj36Wk49n95gAO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -119,7 +124,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ciclo3" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.linag.ciclo3.main" />
       <extension name="coverage">
@@ -132,11 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
