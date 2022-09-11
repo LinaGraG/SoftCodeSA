@@ -6,10 +6,8 @@ import javax.persistence.*;
 @Entity
 @Table(name = "Movimientos")
 public class MovimientoDinero {
-    @Id//Id unico y ordinal por "tabla"
-    //@GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //@Column(columnDefinition = "serial")
 
     private int id;
     private long monto;
