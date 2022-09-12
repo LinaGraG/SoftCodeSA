@@ -157,7 +157,21 @@ public class Controller {
         return movDineroService.obtenerPorEmpresa(id);
     }
 
-    @DeleteMapping("/enterprises/{id}/movements")
+    @PostMapping("/enterprises/{id}/movements")
+    public MovimientoDinero movDineroId(@RequestBody MovimientoDinero movimientoDinero, Integer id) {
+        return movDineroService.saveOrUpdateMovDinero(movimientoDinero);
+
+
+
+
+
+
+
+
+
+              /*@DeleteMapping("/enterprises/{id}/movements")
+
+
 
     public String deleteMovimientoPorEmpresa(@PathVariable("id") Integer id) {
         boolean respuesta = empresaService.deleteEmpresa(id);
@@ -165,11 +179,12 @@ public class Controller {
             return "se borro" + id;
 
         }
-        return "no se borro" + id;
+        return "no se borro" + id;*/
 
 
     }
 }
+
 
 
 
