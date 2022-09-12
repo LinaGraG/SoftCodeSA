@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d66423a7-ef63-46cd-bb0a-dc3a8d5d8893" name="Changes" comment="Sprint 3&#10;falta parte /enterprises/{id}/movements">
+    <list default="true" id="d66423a7-ef63-46cd-bb0a-dc3a8d5d8893" name="Changes" comment="Sprint 3&#10;falta parte /enterprises/{id}/movements&#10;get ok&#10;post ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/controllers/Controller.java" afterDir="false" />
     </list>
@@ -160,7 +160,7 @@
       <workItem from="1662777840685" duration="469000" />
       <workItem from="1662899666325" duration="3989000" />
       <workItem from="1662935911322" duration="3732000" />
-      <workItem from="1662989794015" duration="3016000" />
+      <workItem from="1662989794015" duration="6465000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 2 base">
       <created>1662315101269</created>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662939423346</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Sprint 3&#10;falta parte /enterprises/{id}/movements&#10;get ok&#10;post ok">
+      <created>1662998395100</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662998395100</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +276,7 @@
     <MESSAGE value="sprint 3 base &#10;http://localhost:8080/enterprises/&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/enterprises/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE&#10;&#10;http://localhost:8080/users/&#10;El sistema devuelve responses 200 en la ruta&#10;/users con los siguientes verbos:&#10;GET&#10;POST&#10;El sistema devuelve responses 200 en la ruta&#10;/users/[id] con los siguientes verbos:&#10;GET&#10;PATCH&#10;DELETE" />
     <MESSAGE value="Sprint 3" />
     <MESSAGE value="Sprint 3&#10;falta parte /enterprises/{id}/movements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprint 3&#10;falta parte /enterprises/{id}/movements" />
+    <MESSAGE value="Sprint 3&#10;falta parte /enterprises/{id}/movements&#10;get ok&#10;post ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprint 3&#10;falta parte /enterprises/{id}/movements&#10;get ok&#10;post ok" />
   </component>
 </project>

@@ -102,12 +102,12 @@ public class Controller {
         return empleadoService.saveOrUpdateEmpleado(empl);
     }
 
-    @DeleteMapping("/users/{id}") //Metodo para eliminar empleados por id
+    @DeleteMapping("/users/{id}")
     public String DeleteEmpleado(@PathVariable("id") Integer id) {
-        boolean respuesta = empleadoService.deleteEmpleado(id); //eliminamos usando el servicio de nuestro service
-        if (respuesta) { //si la respuesta booleana es true, si se eliminò
+        boolean respuesta = empleadoService.deleteEmpleado(id);
+        if (respuesta) {
             return "The employee with ID could be deleted successfully " + id;
-        }//Si la respuesta booleana es false, no se eliminó
+        }
         return "Failed to successfully remove employee with Id " + id;
     }
     //MOVEMENTS
@@ -161,26 +161,25 @@ public class Controller {
     public MovimientoDinero movDineroId(@RequestBody MovimientoDinero movimientoDinero, Integer id) {
         return movDineroService.saveOrUpdateMovDinero(movimientoDinero);
 
+    }
 
+    @PatchMapping("/enterprises/{id}/movements")
+    public MovimientoDinero actualizarmovDineroId(@PathVariable("id") Integer id, @RequestBody MovimientoDinero movimiento) {
+        MovimientoDinero mov = movDineroService.getMovDineroById(id);
+        mov.setConcepto(movimiento.getConcepto());
+        mov.setMonto(movimiento.getMonto());
+        mov.setUsuario(movimiento.getUsuario());
+        return movDineroService.saveOrUpdateMovDinero(mov);
+    }
 
+    @DeleteMapping("/enterprises/{id}/movements")
 
-
-
-
-
-
-              /*@DeleteMapping("/enterprises/{id}/movements")
-
-
-
-    public String deleteMovimientoPorEmpresa(@PathVariable("id") Integer id) {
-        boolean respuesta = empresaService.deleteEmpresa(id);
+    public String deletemovDineroId(@PathVariable("id") Integer id) {
+        boolean respuesta = movDineroService.deleteMovimientoDinero(id);
         if (respuesta) {
-            return "se borro" + id;
-
+            return "The Company Movement was successfully deleted" + id;
         }
-        return "no se borro" + id;*/
-
+        return "Could not delete Company Movement" + id;
 
     }
 }
