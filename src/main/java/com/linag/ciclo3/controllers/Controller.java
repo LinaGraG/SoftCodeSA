@@ -72,22 +72,22 @@ public class Controller {
     /* USERS*/
 
 
-    @GetMapping("/users") //Ver json de todas los empleados
+    @GetMapping("/users")
     public List<Empleado> verEmpleados() {
         return empleadoService.getAllEmpleado();
     }
 
-    @PostMapping("/users") //Guardar un empleado nuevo
+    @PostMapping("/users")
     public Optional<Empleado> guardarEmpleado(@RequestBody Empleado empl) {
         return Optional.ofNullable(this.empleadoService.saveOrUpdateEmpleado(empl));
     }
 
-    @GetMapping(path = "users/{id}")//Consultar empleado por ID
+    @GetMapping(path = "users/{id}")
     public Optional<Empleado> empleadoPorID(@PathVariable("id") Integer id) {
         return this.empleadoService.getEmpleadoById(id);
     }
 
-    @GetMapping("/enterprises/{id}/users")// Consultar empleados por empresa
+    @GetMapping("/enterprises/{id}/users")
     public ArrayList<Empleado> EmpleadoPorEmpresa(@PathVariable("id") Integer id) {
         return this.empleadoService.obtenerPorEmpresa(id);
     }
