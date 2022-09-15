@@ -130,11 +130,8 @@ public class Controller {
 
     @PatchMapping("/movements/{id}")
     public MovimientoDinero actualizarMovimiento(@PathVariable("id") Integer id, @RequestBody MovimientoDinero movimiento) {
-        MovimientoDinero mov = movDineroService.getMovDineroById(id);
-        mov.setConcepto(movimiento.getConcepto());
-        mov.setMonto(movimiento.getMonto());
-        mov.setUsuario(movimiento.getUsuario());
-        return movDineroService.saveOrUpdateMovDinero(mov);
+
+        return movDineroService.patchmovDinero(id,movimiento);
     }
 
     @DeleteMapping("/movements/{id}")
@@ -163,16 +160,18 @@ public class Controller {
 
     }
 
-    @PatchMapping("/enterprises/{id}/movements")
+    @PatchMapping("/enterprises/{idEmpresa}/movements/{id}")
     public MovimientoDinero actualizarmovDineroId(@PathVariable("id") Integer id, @RequestBody MovimientoDinero movimiento) {
-        MovimientoDinero mov = movDineroService.getMovDineroById(id);
+        return movDineroService.patchmovDinero(id,movimiento);
+
+        /*MovimientoDinero mov = movDineroService.getMovDineroById(id);
         mov.setConcepto(movimiento.getConcepto());
         mov.setMonto(movimiento.getMonto());
         mov.setUsuario(movimiento.getUsuario());
-        return movDineroService.saveOrUpdateMovDinero(mov);
+        return movDineroService.saveOrUpdateMovDinero(mov);*/
     }
 
-    @DeleteMapping("/enterprises/{id}/movements")
+    @DeleteMapping("/enterprises/{idEmpresa}/movements/{id}")
 
     public String deletemovDineroId(@PathVariable("id") Integer id) {
         boolean respuesta = movDineroService.deleteMovimientoDinero(id);

@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d66423a7-ef63-46cd-bb0a-dc3a8d5d8893" name="Changes" comment="Sprint 3 OK">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/services/MovDineroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linag/ciclo3/services/MovDineroService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +162,8 @@
       <workItem from="1662899666325" duration="3989000" />
       <workItem from="1662935911322" duration="3732000" />
       <workItem from="1662989794015" duration="7123000" />
+      <workItem from="1663125170396" duration="34000" />
+      <workItem from="1663196166628" duration="3103000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 2 base">
       <created>1662315101269</created>

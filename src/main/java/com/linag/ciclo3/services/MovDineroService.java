@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class MovDineroService {
@@ -21,8 +22,23 @@ public class MovDineroService {
     }
 
     public MovimientoDinero getMovDineroById(Integer id) {
-        return movDineroRepository.findById(id).get();
+        Optional<MovimientoDinero> movDinero=movDineroRepository.findById(id);
+        return movDinero.orElse(null);
     }
+
+    public MovimientoDinero patchmovDinero(Integer id , MovimientoDinero movDinero) {
+        Optional<MovimientoDinero> mov = movDineroRepository.findById(id);
+        if (mov.isPresent()) {
+            MovimientoDinero moviDinero = mov.get();
+            moviDinero.setConcepto(movDinero.getConcepto());
+            moviDinero.setMonto(movDinero.getMonto());
+            moviDinero.setUsuario(movDinero.getUsuario());
+            return this.movDineroRepository.save(moviDinero);
+
+        }
+        return null;
+    }
+
 
     public MovimientoDinero saveOrUpdateMovDinero(MovimientoDinero movimientoDinero) {
         MovimientoDinero mov = movDineroRepository.save(movimientoDinero);
